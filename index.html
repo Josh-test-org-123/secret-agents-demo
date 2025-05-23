@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Agents HQ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🕵️ Secret Agents HQ 🕵️‍♀️</h1>
+            <p class="tagline">Your mission, should you choose to accept it...</p>
+        </header>
+
+        <main>
+            <section class="mission-generator">
+                <h2>Mission Generator</h2>
+                <button id="generateMission" class="mission-button">Generate New Mission</button>
+                <div id="missionDisplay" class="mission-display"></div>
+            </section>
+
+            <section class="agent-profiles">
+                <h2>Agent Profiles</h2>
+                <div class="agents-grid" id="agentsGrid"></div>
+            </section>
+
+            <section class="gadget-showcase">
+                <h2>Spy Gadgets</h2>
+                <div class="gadgets-container" id="gadgetsContainer"></div>
+            </section>
+
+            <section class="code-breaker">
+                <h2>Code Breaker Challenge</h2>
+                <p>Decode the secret message:</p>
+                <div class="code-display" id="codeDisplay"></div>
+                <input type="text" id="codeInput" placeholder="Enter decoded message..." class="code-input">
+                <button id="checkCode" class="check-button">Check Code</button>
+                <div id="codeResult" class="code-result"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>This message will self-destruct in <span id="countdown">∞</span> seconds...</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
