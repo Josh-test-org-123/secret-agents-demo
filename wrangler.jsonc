@@ -1,7 +1,9 @@
 {
   "name": "secret-agents-demo",
   "compatibility_date": "2025-05-23",
+  "main": "./index.js",
   "assets": {
-    "directory": "./"
+    "directory": "./",
+    "binding": "ASSETS"
   }
 }
