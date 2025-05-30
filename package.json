@@ -4,7 +4,7 @@
   "description": "A Secret Agents HQ demo application",
   "main": "index.html",
   "scripts": {
-    "build": "mkdir -p dist && cp *.html *.css *.js _headers _redirects dist/",
+    "build": "mkdir -p dist && cp src/* dist/",
     "dev": "npx http-server . -p 8080",
     "deploy": "wrangler pages publish dist",
     "preview": "wrangler pages dev dist"
