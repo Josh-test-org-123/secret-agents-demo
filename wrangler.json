@@ -1,0 +1,9 @@
+{
+  "name": "secret-agents-demo",
+  "compatibility_date": "2024-01-15",
+  "main": "./_worker.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  }
+}
