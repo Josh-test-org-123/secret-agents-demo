@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A Secret Agents HQ demo application",
   "scripts": {
-    "build": "mkdir -p dist && cp public/* dist/",
+    "build": "mkdir -p dist && cp public/* dist/ && npx wrangler build",
     "dev": "npx http-server . -p 8080",
-    "deploy": "wrangler pages publish dist",
-    "preview": "wrangler pages dev dist"
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "devDependencies": {
     "wrangler": "^3.0.0",
@@ -16,7 +16,7 @@
     "secret-agents",
     "demo",
     "cloudflare",
-    "pages"
+    "workers"
   ],
   "author": "",
   "license": "MIT"
