@@ -1,0 +1,24 @@
+{
+  "name": "secret-agents-demo",
+  "version": "1.0.0",
+  "description": "A Secret Agents HQ demo application",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.html *.css *.js _headers _redirects dist/",
+    "dev": "npx http-server . -p 8080",
+    "deploy": "wrangler pages publish dist",
+    "preview": "wrangler pages dev dist"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "http-server": "^14.1.1"
+  },
+  "keywords": [
+    "secret-agents",
+    "demo",
+    "cloudflare",
+    "pages"
+  ],
+  "author": "",
+  "license": "MIT"
+}
