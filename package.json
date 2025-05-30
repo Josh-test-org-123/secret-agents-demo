@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Secret Agents HQ demo application",
   "scripts": {
-    "build": "mkdir -p dist && cp src/* dist/",
+    "build": "mkdir -p dist && cp public/* dist/",
     "dev": "npx http-server . -p 8080",
     "deploy": "wrangler pages publish dist",
     "preview": "wrangler pages dev dist"
